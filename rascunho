@@ -1,0 +1,61 @@
+/*node_a = node_a->nextNode;
+
+arc_a = malloc(sizeof(graphNode));
+arc_a->arcPointer = node_a;
+arc_a->nextArc = NULL;
+
+if (node_b->arcList == NULL)
+node_b->arcList = arc_a;
+
+else
+arc_b->nextArc = arc_a;
+
+arc_b = arc_a;
+
+
+do {
+
+fscanf(f, "%c", &c);
+printf("%c", c);
+
+if ((c != 10) && (c != 13) && (c != 32)) {
+
+if (fscanf(f, "%d", &i)) {
+
+node_a = *epacesso;
+
+while (node_a != NULL) {
+
+printf("%c", node_a->nodeLabel);
+printf("%d", node_a->nodeValue);
+
+if (node_a->nodeLabel == c)
+node_a->nodeValue = i;
+
+node_a = node_a->nextNode;
+
+}
+
+} else if (fscanf(f, "%c", &d)) {
+
+node_b = *epacesso;
+
+while(node_b != NULL) {
+
+if (node_b->nodeLabel == d) {
+
+arc_a = malloc(sizeof(graphArc));
+arc_a->arcPointer = node_b;
+
+}
+
+}
+
+arc_b->arcCost = d;
+
+
+}
+
+}
+
+} while (c != 10);*/
